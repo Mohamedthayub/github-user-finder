@@ -30,7 +30,7 @@ This is a simple web application that allows users to search for any GitHub user
 ---
 
 ## 🔗 Live Demo  
-[Social-links-profile](https://github-user-finder-thayub.netlify.app/)
+[Github-Profile-Finder](https://github-user-finder-thayub.netlify.app/)
 
 
 ## 📦 How to Run
