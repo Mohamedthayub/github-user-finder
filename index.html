@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github User App</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="search-container">
+                <div class="input-container">
+                    <img src="assets/icon-search.svg" alt="search-icon" class="image">
+                    <input type="text" id="userinput" placeholder="Search Github Username...">
+                </div>
+                <button id="search-btn">Search</button>
+            </div>
+            <span id="user-error"></span>
+            <div class="profile-container">
+                <div class="profile">
+                    <img src="./assets/octocat.png" alt="profilephoto" width="100" height="100" class="user-image">
+                </div>
+                <div class="information-container">
+                    <div class="section">
+                        <div class="name">
+                            <h2 id="username">The octocat</h2>
+                            <p id="userid">@octocat</p>
+                            <p id="userbio">this profile has no bio </p>
+                        </div>
+                        <div class="date">
+                            <p id="joindate"></p>
+                        </div>
+                    </div>
+                    <div class="repository">
+                        <div class="repos">
+                            <h4>Public Repositories</h4>
+                            <p id="repoNum">4</p>
+                        </div>
+                        <div class="follower">
+                            <h4>Followers</h4>
+                            <p id="followerscount">5</p>
+                        </div>
+                        <div class="following">
+                            <h4>Following</h4>
+                            <p id="followingcount">2</p>
+                        </div>
+                    </div>
+                    <div class="personal-details">
+                        <div class="detail1">
+                            <div class="location">
+                                <img src="assets/icon-location.svg" alt="location-logo">
+                                <p id="userlocation">Not available</p>
+                            </div>
+                            <div class="twitter">
+                                <img src="assets/icon-twitter.svg" alt="twitter-logo">
+                                <p id="twitter">Not available</p>
+                            </div>
+                        </div>
+                        <div class="detail2">
+                            <div class="link">
+                                <img src="assets/icon-website.svg" alt="link">
+                                <p id="user-link">Not available</p>
+                            </div>
+                            <div class="industry">
+                                <img src="assets/icon-company.svg" alt="company-logo">
+                                <p id="user-company">Not available</p>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="scripts/app.js" type="module">
+    </script>
+</body>
+</html>
