@@ -29,6 +29,10 @@ This is a simple web application that allows users to search for any GitHub user
 
 ---
 
+## 🔗 Live Demo  
+[Social-links-profile](https://github-user-finder-thayub.netlify.app/)
+
+
 ## 📦 How to Run
 
 1. Clone the repository
